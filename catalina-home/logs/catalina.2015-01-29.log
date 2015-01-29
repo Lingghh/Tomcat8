@@ -1,0 +1,43 @@
+29-Jan-2015 22:14:43.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+29-Jan-2015 22:14:43.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+29-Jan-2015 22:14:43.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+29-Jan-2015 22:14:43.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-Jan-2015 22:14:43.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.10.2
+29-Jan-2015 22:14:43.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+29-Jan-2015 22:14:43.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+29-Jan-2015 22:14:43.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_25-b17
+29-Jan-2015 22:14:43.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2015 22:14:43.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home
+29-Jan-2015 22:14:43.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home
+29-Jan-2015 22:14:43.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=catalina-home
+29-Jan-2015 22:14:43.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=catalina-home
+29-Jan-2015 22:14:43.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=catalina-home/endorsed
+29-Jan-2015 22:14:43.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=catalina-home/temp
+29-Jan-2015 22:14:43.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2015 22:14:43.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-Jan-2015 22:14:43.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7532
+29-Jan-2015 22:14:43.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=/Applications/IntelliJ IDEA 14.app/Contents/bin
+29-Jan-2015 22:14:43.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Jan-2015 22:14:43.351 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Jero/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+29-Jan-2015 22:14:43.725 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2015 22:14:43.812 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Jan-2015 22:14:43.816 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Jan-2015 22:14:43.819 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Jan-2015 22:14:43.819 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1561 ms
+29-Jan-2015 22:14:43.869 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+29-Jan-2015 22:14:43.869 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+29-Jan-2015 22:14:43.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/docs
+29-Jan-2015 22:14:53.955 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Jan-2015 22:14:54.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/docs has finished in 10,225 ms
+29-Jan-2015 22:14:54.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/examples
+29-Jan-2015 22:14:59.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/examples has finished in 5,725 ms
+29-Jan-2015 22:14:59.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/host-manager
+29-Jan-2015 22:14:59.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/host-manager has finished in 110 ms
+29-Jan-2015 22:14:59.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/manager
+29-Jan-2015 22:15:00.145 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/manager has finished in 197 ms
+29-Jan-2015 22:15:00.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/ROOT
+29-Jan-2015 22:15:05.543 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Jan-2015 22:15:05.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/Jero/Documents/Java IDE/Tomcat8/catalina-home/webapps/ROOT has finished in 5,404 ms
+29-Jan-2015 22:15:05.555 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2015 22:15:05.560 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Jan-2015 22:15:05.560 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 21740 ms
